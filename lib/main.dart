@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:trend_trove/pages/bottomnav.dart';
 import 'package:trend_trove/pages/home.dart';
-import 'package:trend_trove/pages/onboarding.dart';
+// import 'package:trend_trove/pages/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: const Bottomnav(),
     );
   }
 }
